@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.right-arrow {
+  color: rgb(12, 12, 92, 0.6);
+  right: -50px;
+  top: 50%;
+  position: absolute;
+  border: none;
+  background: none;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.left-arrow {
+  color: rgb(12, 12, 92, 0.6);
+  left: -50px;
+  top: 50%;
+  position: absolute;
+  border: none;
+  background: none;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  background-image: url(imgs/Little-Venice-Quarter-1.jpg);
+  background-size: cover;
+  margin: 0px;
+  font-size: 32px;
+}
+
+.main-container {
+  position: relative;
+  width: 50vw;
+  height: 60vh;
+  border: 2px solid black;
+  margin: 0px auto 0px auto;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
