@@ -12,11 +12,22 @@
   </head>
   <body>
     <div class="main-container">
-      <button class="fa-solid fa-arrow-left fa-3x left-arrow"></button>
+      <button
+        id="previous"
+        class="fa-solid fa-arrow-left fa-3x previous"
+      ></button>
       <div class="img-container">
-        <div class="img"></div>
+        <div id="img1" class="img1 img" data-index-number="1">
+          My Favourite TV Shows
+        </div>
+        <div id="img2" class="img2 img" data-index-number="2"></div>
+        <div id="img3" class="img3 img" data-index-number="3"></div>
+        <div id="img4" class="img4 img" data-index-number="4"></div>
+        <div id="img5" class="img5 img" data-index-number="5"></div>
+        <div id="img6" class="img6 img" data-index-number="6"></div>
       </div>
-      <button class="fa-solid fa-arrow-right fa-3x right-arrow"></button>
+      <button id="next" class="fa-solid fa-arrow-right fa-3x next"></button>
     </div>
+    <script src="../dist/bundle.js"></script>
   </body>
 </html>
