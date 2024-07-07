@@ -6,7 +6,7 @@ body {
   height: 100vh;
 }
 
-.right-arrow {
+.next {
   color: rgb(12, 12, 92, 0.6);
   right: -50px;
   top: 50%;
@@ -17,7 +17,7 @@ body {
   cursor: pointer;
 }
 
-.left-arrow {
+.previous {
   color: rgb(12, 12, 92, 0.6);
   left: -50px;
   top: 50%;
@@ -28,15 +28,56 @@ body {
   cursor: pointer;
 }
 
-.img {
-  height: 100%;
-  width: 100%;
-  background-image: url(imgs/Little-Venice-Quarter-1.jpg);
-  background-size: cover;
-  margin: 0px;
+.img1 {
+  text-align: center;
   font-size: 32px;
+  color: rgb(154, 152, 152);
 }
 
+.img2 {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-image: url(imgs/img2.jpeg);
+  background-size: cover;
+  margin: 0px;
+}
+
+.img3 {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-image: url(imgs/img3.jpg);
+  background-size: cover;
+  margin: 0px;
+}
+
+.img4 {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-image: url(imgs/img4.jpg);
+  background-size: cover;
+  margin: 0px;
+}
+
+.img5 {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-image: url(imgs/img5.jpg);
+  background-size: cover;
+  margin: 0px;
+}
+
+.img6 {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-image: url(imgs/img6.jpeg);
+  background-size: cover;
+  margin: 0px;
+}
 .main-container {
   position: relative;
   width: 50vw;
@@ -50,4 +91,5 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+  background-color: black;
 }
