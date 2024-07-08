@@ -4,6 +4,13 @@
 
 body {
   height: 100vh;
+  background-color: antiquewhite;
+}
+
+h1,
+header {
+  text-align: center;
+  margin-top: 12px;
 }
 
 .next {
@@ -64,7 +71,6 @@ body {
 .img5 {
   display: none;
   position: absolute;
-  bottom: 5px;
   height: 100%;
   width: 100%;
   background-image: url(imgs/img5.jpg);
